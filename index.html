@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 27-10</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main class="mx-auto max-w-4xl mt-40 grid grid-cols-2 gap-5">
+        <div class="bg-slate-900 rounded-lg p-5">
+            <h1 class="font-semibold text-3xl mb-3 text-white">Price: 1000</h1>
+            <button id="30%DiscountButton" class="btn btn-primary">Apply 30% Off</button>
+            <h2 class="text-white text-lg mt-3">Please Pay: <span id="innerText-pay">00</span></h2>
+        </div>
+
+
+        <div class="bg-slate-900 rounded-lg p-5">
+            <h1 class="font-semibold text-3xl mb-3 text-white">Price: <span id="product-price">1000</span></h1>
+            <p class="text-white text-2xl mb-5">Coupon: <input id="discount-input" class="rounded-md px-3 py-2 text-base outline-none text-gray-600"  type="text" placeholder="Apply Your Coupon"></p>
+            <button id="button-Discount" class="btn btn-primary">Apply Coupon</button>
+            <h2 class="text-white text-lg mt-3">Please Pay: <span id="pay-innerText">00</span></h2>
+        </div>
+    </main>
+    <script src="./js/discount.js"></script>
+</body>
+</html>
